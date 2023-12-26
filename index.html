@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dicoding News</title>
+  <link rel="shortcut icon" href="./assets/images/dicoding.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header id="header-nav">
+    <nav class="nav-container">
+      <div class="col-8 md:col-7 flex items-center">
+        <img src="./assets/images/dicoding-news.png" class="nav-brand" alt="logo dicoding" />
+        <div class="nav-menu hidden md:inline-flex">
+          <a class="nav-link px-4 no-underline text-white" href="#news">News</a>
+          <a class="nav-link px-4 no-underline text-white" href="#article">Article</a>
+          <a class="nav-link px-4 no-underline text-white" href="#video">Video</a>
+        </div>
+      </div>
+      <div class="col-4 md:col-5 flex items-center justify-end">
+        <button class="btn-icon">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+        <div class="nav-menu hidden md:inline-flex">
+          <button class="btn-white ml-20">
+            <ion-icon name="add-outline" class="text-primary btn-ion"></ion-icon>Create Article
+          </button>
+        </div>
+        <div class="nav-menu-responsive" id="nav-menus">
+          <button class="btn-icon" id="nav-hidden">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+          <ul class="nav-list">
+            <a class="nav-link-rspv px-4 no-underline text-white" href="#news">News</a>
+            <a class="nav-link-rspv px-4 no-underline text-white" href="#article">Article</a>
+            <a class="nav-link-rspv px-4 no-underline text-white" href="#video">Video</a>
+            <button class="btn-white mt-5">
+              <ion-icon name="add-outline" class="text-primary btn-ion"></ion-icon>Create Article
+            </button>
+          </ul>
+        </div>
+        <button class="btn-icon toggler ml-10" id="nav-show">
+          <ion-icon name="reorder-three-outline"></ion-icon>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article class="bg-primary" id="news">
+      <h1 class="title-container mx-auto title-breaking text-white">Breaking News</h1>
+      <section class="container">
+        <div class="content-wrapper">
+          <div class="col-6 flex-column flex items-center">
+            <a class="no-underline viral-content"
+              href="https://www.msn.com/id-id/berita/nasional/pelatihan-bersertifikat-dicoding-bantu-mahasiswa-bsi-masuki-dunia-teknologi-kompetitif/ar-AA1h8Awe">
+              <figure class="title-news hover:underline ">
+                <img src="./assets/images/breaking-news-1.jpg" class="img-responsive rounded shadow-sm"
+                  alt="image news dicoding" />
+                <figcaption class="text-white">
+                  Pelatihan Bersertifikat Dicoding: Bantu Mahasiswa BSI Masuki Dunia Teknologi Kompetitif
+                </figcaption>
+              </figure>
+              <span class="text-gray">
+                Ichsan Emrald Alamsyah - 29 Sept 2023
+              </span>
+            </a>
+          </div>
+          <div class="col-6 flex-column flex items-center">
+            <a class="no-underline viral-content"
+              href="https://nextren.grid.id/read/012850180/aws-kerjasama-dengan-dicoding-hadirkan-program-beasiswa-100-ribu-orang?page=all">
+              <figure class="title-news hover:underline">
+                <img src="./assets/images/breaking-news-2.jpg" class="img-responsive rounded shadow-sm"
+                  alt="image news dicoding" />
+                <figcaption class="text-white">
+                  AWS Kerjasama Dengan Dicoding Hadirkan Program Beasiswa 100 Ribu Orang
+                </figcaption>
+              </figure>
+              <span class="text-gray">
+                Zihan Fajrin - 21 Aug 2023
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="sub-content-wrapper mt-32" id="sub-content"></div>
+      </section>
+    </article>
+    <article class="container bg-white recommended" id="article">
+      <content class="col-9">
+        <h1 class="title-container mx-auto title-header text-primary">
+          News Article
+        </h1>
+        <section>
+          <a href="https://www.dicoding.com/blog/beasiswa-idcamp-2023"
+            class="recommended-article no-underline hover\:underline">
+            <img src="./assets/images/news-article-1.jpg" class="img-responsive rounded img-view"
+              alt="image content dicoding" />
+
+            <div class="flex justify-center flex-column">
+              <span>
+                Yasmin Izzatul Jannah - 12 Sept 2023
+              </span>
+              <h3>
+                Membangun Digital Nation Indonesia melalui Beasiswa IDCamp 2023
+              </h3>
+              <p>
+                Indonesia, dengan populasi lebih dari 270 juta orang, telah menjadi salah satu pasar digital terbesar di
+                dunia. Pertumbuhan ekonomi...
+              </p>
+            </div>
+          </a>
+          <a href="https://www.dicoding.com/blog/dicoding-bootcamp/"
+            class="recommended-article no-underline hover\:underline">
+            <img src="./assets/images/news-article-2.jpg" class="img-responsive rounded img-view"
+              alt="image content dicoding" />
+            <div class="flex justify-center flex-column">
+              <span>
+                Adrianus Yoza Aprilio - 1 Jul 2023
+              </span>
+              <h3>
+                Bangun Generasi Digital Masa Depan Bersama Dicoding Bootcamp
+              </h3>
+              <p>
+                Pada era digital yang terus berkembang pesat seperti saat ini, kebutuhan talenta teknologi selalu
+                mengemuka dan menjadi topik...
+              </p>
+            </div>
+          </a>
+          <a href="https://www.dicoding.com/blog/dicoding-bangun-negeri-untuk-transformasi-developer-indonesia/"
+            class="recommended-article no-underline hover\:underline">
+            <img src="./assets/images/news-article-3.jpg" class="img-responsive rounded img-view"
+              alt="image content dicoding" />
+            <div class="flex justify-center flex-column">
+              <span>
+                Dicoding Indonesia - 5 Aug 2023
+              </span>
+              <h3>
+                Dicoding Bangun Negeri, untuk Transformasi Developer Indonesia
+              </h3>
+              <p>
+                Kini semua bangsa bergerak menuju transformasi dunia digital yang bertumpu pada inovasi teknologi di
+                semua sendi kehidupan...
+              </p>
+            </div>
+          </a>
+        </section>
+      </content>
+      <aside class="col-3 mt-32">
+        <h1 class="title-container mx-auto title-header text-primary">
+          Trending
+        </h1>
+        <div class="other-article">
+          <img src="./assets/images/news-trending-1.jpg" class="img-responsive rounded" alt="image content dicoding" />
+          <span>Limya Oktavianni - 28 Oct 2023</span>
+          <a class="no-underline"
+            href="https://www.dicoding.com/blog/tujuh-manfaat-belajar-pemrograman-yang-wajib-kamu-ketahui/">Tujuh
+            Manfaat Belajar Pemrograman yang Wajib Kamu Ketahui</a>
+        </div>
+        <div class="other-article">
+          <img src="./assets/images/news-trending-2.jpg" class="img-responsive rounded" alt="image content dicoding" />
+          <span>Limya Oktavianni - 21 Oct 2023</span>
+          <a class="no-underline"
+            href="https://www.dicoding.com/blog/hal-yang-perlu-kamu-ketahui-tentang-jurusan-teknik-informatika/">Hal
+            yang Perlu Kamu Ketahui tentang Jurusan Teknik Informatika</a>
+        </div>
+        <div class="other-article">
+          <img src="./assets/images/news-trending-3.jpg" class="img-responsive rounded" alt="image content dicoding" />
+          <span>Adhellia Laras Tri - 11 Oct 2023</span>
+          <a class="no-underline"
+            href="https://www.dicoding.com/blog/ruang-lingkup-dan-peluang-karier-jurusan-sistem-informasi/">Ruang
+            Lingkup dan Peluang Karier Jurusan Sistem Informasi</a>
+        </div>
+      </aside>
+    </article>
+    <article class="bg-white" id="video">
+      <div class="title-container mx-auto flex items-center justify-between">
+        <h1 class="title-header text-primary">News Video</h1>
+      </div>
+      <section class="half-container news-video first-container">
+        <figure class="col-4 flex items-start flex-column my-15 mr-2">
+          <a class="no-underline" href="https://youtu.be/fU2HX8uuclA?si=JXVa76thaHqi40qy">
+            <img src="./assets/images/news-video-1.jpg" class="img-responsive rounded" alt="thumbnail video dicoding" />
+            <figcaption>
+              5 Extensions Visual Studio Code Untuk Membuat Website!
+            </figcaption>
+            <span>Dicoding Indonesia - 31 Aug 2023</span>
+          </a>
+        </figure>
+
+        <figure class="col-4 flex items-start flex-column my-15">
+          <a class="no-underline" href="https://youtu.be/4Wr47DiBI6o?si=IlHi-uj7Ic8pAiL_">
+            <img src="./assets/images/news-video-2.jpg" class="img-responsive rounded" alt="thumbnail video dicoding" />
+            <figcaption>
+              Bard vs ChatGPT?! Mana yang lebih bagus?
+            </figcaption>
+            <span>Dicoding Indonesia - 14 Jun 2023</span>
+          </a>
+        </figure>
+        <figure class="col-4 flex items-start flex-column my-15">
+          <a class="no-underline" href="https://youtu.be/EDCOxdX1Byc?si=-Qf9sP5gpQHAWmpG">
+            <img src="./assets/images/news-video-3.jpg" class="img-responsive rounded" alt="thumbnail video dicoding" />
+            <figcaption>
+              Keren Banget! Ternyata Ini Teknologi Di Balik Google Translate!😱
+            </figcaption>
+            <span>Dicoding Indonesia - 10 Aug 2023</span>
+          </a>
+        </figure>
+      </section>
+      <section class="half-container news-video">
+        <figure class="col-4 flex items-start flex-column my-15">
+          <a class="no-underline" href="https://youtu.be/q3wHs58wkJo?si=T16PUnS9c8JeaQdj">
+            <img src="./assets/images/news-video-4.jpg" class="img-responsive rounded" alt="thumbnail video dicoding" />
+            <figcaption>
+              Apakah Metaverse Masih Berjaya di 2023
+            </figcaption>
+            <span>Dicoding Indonesia - 25 Aug 2023</span>
+          </a>
+        </figure>
+        <figure class="col-4 flex items-start flex-column my-15">
+          <a class="no-underline" href="https://youtu.be/G3qeIZXXNJE?si=7R5ehCPDEyXmkx90">
+            <img src="./assets/images/news-video-5.jpg" class="img-responsive rounded" alt="thumbnail video dicoding" />
+            <figcaption>
+              [Dicoding News] Belajar Analisis Data dengan Python Course Launch
+            </figcaption>
+            <span>Dicoding Indonesia - 31 Mar 2023</span>
+          </a>
+        </figure>
+        <figure class="col-4 flex items-start flex-column my-15">
+          <a class="no-underline" href="https://youtu.be/fY96set1_ns?si=fYmumezdr6c3EsJO">
+            <img src="./assets/images/news-video-6.jpg" class="img-responsive rounded" alt="thumbnail video dicoding" />
+            <figcaption>[Dicoding News] Belajar Tools Front-End Web Intermediate Course Launch</figcaption>
+            <span>Dicoding Indonesia - 28 Mar 2023</span>
+          </a>
+        </figure>
+      </section>
+    </article>
+  </main>
+  <footer class="bg-primary">
+    <div class="title-container mx-auto flex justify-between footer-content">
+      <div class="content-wrapper my-15">
+        <div class="col-6 flex-column flex">
+          <div class="text-white">
+            &copy; <span id="year"></span> Dicoding News
+          </div>
+        </div>
+        <div class="col-6 flex-column flex items-end footers">
+          <div class="text-white">
+            <a href="https://www.instagram.com/dicoding" target="_blank">
+              <ion-icon class="mr-2" name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/dicoding" target="_blank">
+              <ion-icon class="mr-2" name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://twitter.com/dicoding" target="_blank">
+              <ion-icon class="mr-2" name="logo-twitter"></ion-icon>
+            </a>
+            <a href="https://www.youtube.com/channel/UCM6BWkgiGrCHG967i_PyMiw" target="_blank">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/news.js"></script>
+</body>
+
+</html>
